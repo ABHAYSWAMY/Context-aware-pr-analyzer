@@ -4,7 +4,7 @@ from fastapi import FastAPI
 import uvicorn
 import threading
 
-from app import app  # your FastAPI app
+from backend import app  # your FastAPI app (backend.py)
 
 
 # 🔥 Run FastAPI in background
